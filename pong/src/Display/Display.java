@@ -40,7 +40,7 @@ public class Display extends JFrame{
         graphics.setColor(Color.black);
         graphics.fillRect(0,0, canvas.getWidth(), canvas.getHeight());
 
-        renderer.render(game, graphics);
+        renderer.render(game, graphics, this);
 
         graphics.dispose();
         bufferStrategy.show();

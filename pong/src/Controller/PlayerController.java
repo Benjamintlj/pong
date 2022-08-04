@@ -23,12 +23,12 @@ public class PlayerController implements Controller {
     }
 
     @Override
-    public boolean isRequestingLeft() {
-        return input.isPressed(KeyEvent.VK_LEFT);
+    public boolean isRequestingW() {
+        return input.isPressed(KeyEvent.VK_W);
     }
 
     @Override
-    public boolean isRequestingRight() {
-        return input.isPressed(KeyEvent.VK_RIGHT);
+    public boolean isRequestingS() {
+        return input.isPressed(KeyEvent.VK_S);
     }
 }

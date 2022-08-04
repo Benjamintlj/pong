@@ -6,8 +6,8 @@ public interface Controller {
 
     boolean isRequestingDown();
 
-    boolean isRequestingLeft();
+    boolean isRequestingW();
 
-    boolean isRequestingRight();
+    boolean isRequestingS();
 
 }

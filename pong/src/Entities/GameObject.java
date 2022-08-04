@@ -6,12 +6,11 @@ public abstract class GameObject {
     protected Position position;
     protected Size size;
 
-    public GameObject () {
-        position = new Position(50, 50);
-        size = new Size(50, 50);
+    public GameObject (int x, int y, int width, int height) {
+        position = new Position(x, y);
+        size = new Size(width, height);
     }
 
-    public abstract void update();
     public abstract Image getSprite();
 
     public Position getPosition() {
@@ -21,4 +20,5 @@ public abstract class GameObject {
     public Size getSize() {
         return size;
     }
+
 }
