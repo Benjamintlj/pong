@@ -28,7 +28,7 @@ public class Game {
 
         playerObjects.add(new LeftPlayer(input, 0, 0, 6, 50, 2, Color.white));
         playerObjects.add(new RightPlayer(input, display.getWidth() - 6, 0, 6, 50, 2, Color.white));
-        nonPlayerObjects.add(new Ball(display.getWidth()/2, display.getHeight()/2, 10, 10, Color.white, 3, 4));
+        nonPlayerObjects.add(new Ball(display.getWidth()/2, display.getHeight()/2, 10, 10, Color.white, 3, 3));
     }
 
     public void update() {
